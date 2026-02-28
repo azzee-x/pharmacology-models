@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # hill equation parameters
 Emax = 1.0 #maxmimum effect the drug system can produce. Here you can normalise it to 1, so the top of the curve equals 1. think 100 percent repsonse
-EC50 = 1e - 6 #concentration that gives 50 percent of Emax. one micromolar
+EC50 = 1e-6 #concentration that gives 50 percent of Emax. one micromolar
 n = 1.0 #Hill coefficient. this controls steepness
 
 # Dose range (log-spaced)
